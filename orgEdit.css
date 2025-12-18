@@ -1,0 +1,51 @@
+.edit-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.edit-form input[type="text"],
+.edit-form input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.edit-form label {
+  font-size: 15px;
+  color: #444;
+  margin-right: 10px;
+}
+
+.edit-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #0284c7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.edit-form button:hover {
+  background: #0284c7;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-left: 10px;
+}

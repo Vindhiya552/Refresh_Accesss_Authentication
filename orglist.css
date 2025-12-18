@@ -1,0 +1,79 @@
+.list-container {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-header h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+.add-btn {
+  padding: 10px 15px;
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.add-btn:hover {
+  background: #059669;
+}
+
+/* Table Style */
+.org-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.org-table th,
+.org-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.org-table th {
+  background: #f1f5f9;
+  font-weight: 600;
+}
+
+.org-table tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.action-btn {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.edit-btn {
+  background: #0284c7;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #0369a1;
+}
+
+.delete-btn {
+  background: #dc2626;
+  color: white;
+  margin-left: 8px;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
